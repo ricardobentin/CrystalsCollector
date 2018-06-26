@@ -78,11 +78,14 @@ img{
 }
 
 #wins{
-    margin-left: 5px
+    margin-left: 5px;
+    margin-top: 5px;
 }
 #losses{
-    margin-left: 5px
+    margin-left: 5px;
+    margin-top: 5px;
 }
 #message{
-    margin-left: 5px
+    margin-left: 5px;
+    margin-top: 5px;
 }
