@@ -1,0 +1,44 @@
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 24px;
+    color: white;
+    background-color: orange;
+    margin: 10px;
+    width: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#instructions{
+    background-color: beige;
+    max-width: 400px;
+    margin-left: 10px;
+    padding: 10px;
+    color: rgb(32, 136, 32);
+    font-weight: bold;
+}
+
+#computerScore{
+    background-color: rgb(46, 121, 92);
+    width: 200px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;  
+  
+}
+
+#scoreBoard{
+    background-color: rgba(36, 164, 196, 0.877);
+    width: 80px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+    left: 210px;
+    position: absolute;  
+}
