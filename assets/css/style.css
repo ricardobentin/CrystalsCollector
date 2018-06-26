@@ -25,11 +25,15 @@ h1{
 
 #computerScore{
     background-color: rgb(46, 121, 92);
-    width: 200px;
+    width: 180px;
     height: 120px;
     margin-left: 10px;
     margin-top: 10px;
     float: left;  
+    padding: 10px;
+    font-size: 24px;
+    color: purple;
+    font-weight: bold;
   
 }
 
@@ -41,8 +45,6 @@ h1{
     margin-top: 10px;
     left: 210px;
     position: absolute; 
-   
-    
 }
 
 #gems{
@@ -61,5 +63,14 @@ img{
     height: 120px;
     margin-top: 10px;
     margin-left: 10px;
+    color: white;
 }
 
+#userScoreHeader{
+    background-color: teal;
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
