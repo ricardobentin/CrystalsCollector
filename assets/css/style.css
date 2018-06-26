@@ -64,6 +64,8 @@ img{
     margin-top: 10px;
     margin-left: 10px;
     color: white;
+    font-size: 24px;
+    padding: 10px;
 }
 
 #userScoreHeader{
@@ -78,7 +80,9 @@ img{
 #wins{
     margin-left: 5px
 }
-
 #losses{
+    margin-left: 5px
+}
+#message{
     margin-left: 5px
 }
