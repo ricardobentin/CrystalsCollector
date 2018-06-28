@@ -31,7 +31,7 @@ $("#userScore").text(userScore);
 
 //logic for adding the value of each gem to the user's score
 $("img").click(function () {
-    //this is how to add each of the gem's value's to the user's score
+    //this is how to add each of the gem's values to the user's score
     userScore += parseInt($(this).attr("value"));
     //print the value of the gems to the userScore div id
     $("#userScore").text(userScore);
@@ -40,16 +40,16 @@ $("img").click(function () {
         wins++;
         $("#message").text("You Won!");
         $("#wins").text("Wins: " + wins);
-        //reset the game
+        //Call the startGame function to reset the game
         startGame();
     }
     else if (userScore > computerScore) {
         losses++;
         $("#message").text("You Lost!");
         $("#losses").text("Losses: " + losses);
-        //reset the game
+        //Call the startGame function to reset the game
         startGame();
     }
 });
-//function to call start game to initialize the game for the first time
+//Call the startGame function to initialize the game for the first time
 startGame();
