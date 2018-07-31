@@ -10,4 +10,6 @@ You can continue to play unti you either win or lose.
 
 After you win or lose, the game starts over.
 
+Link to project: http://ricardobentin.github.io/CrystalsCollector
+
 Happy Gemming!
